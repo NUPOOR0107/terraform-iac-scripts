@@ -15,7 +15,7 @@ resource "aws_instance" "application_servers" {
 }
 
 
-# ASG code
+# ASG code for future scope
 /*
 resource "aws_launch_template" "application_instance" {
     name_prefix     = "app-"
